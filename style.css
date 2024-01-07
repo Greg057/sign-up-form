@@ -68,9 +68,9 @@ label {
     margin-bottom: 2px;
 }
 
-input {
+input, input:valid {
     background-color: #354658;
-    border: 1px solid lightgrey;
+    border: 1px solid;
     border-radius: 4px;
     height: 22px; 
     color: lightgrey;
@@ -83,6 +83,16 @@ input:focus {
     border-color: #9a7fde;
 }
 
+input:valid {
+    border-color: lightgrey;
+}
+
 input:invalid {
     border-color: rgb(150, 8, 8);
+}
+
+#no-match {
+    color:rgb(201, 10, 10);
+    font-size: 14px;
+    visibility: hidden;
 }
