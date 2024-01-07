@@ -68,9 +68,9 @@ label {
     margin-bottom: 2px;
 }
 
-input, input:valid {
+input {
     background-color: #354658;
-    border: 1px solid;
+    border: 1px solid lightgrey;
     border-radius: 4px;
     height: 22px; 
     color: lightgrey;
@@ -83,11 +83,7 @@ input:focus {
     border-color: #9a7fde;
 }
 
-input:valid {
-    border-color: lightgrey;
-}
-
-input:invalid {
+input:invalid:focus {
     border-color: rgb(150, 8, 8);
 }
 
