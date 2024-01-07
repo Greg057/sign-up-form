@@ -78,14 +78,11 @@ input {
     padding: 6px;
 }
 
-input:focus {
-    outline: none;
-    border-color: #9a7fde;
-}
 
-input:invalid:focus {
+input:invalid {
     border-color: rgb(150, 8, 8);
 }
+
 
 #no-match {
     color:rgb(201, 10, 10);
